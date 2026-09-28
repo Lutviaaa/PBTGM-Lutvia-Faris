@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pendaftaran Ekstrakurikuler — SMK Negeri Tengaran</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="brand">
+      <div class="brand-logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1VL2fjMbc0DKy3HeVb2z2ZXsQiWFVv36xH1wFpPH1g&s=10" alt="Logo SMK Negeri Tengaran" onerror="this.replaceWith('🏫')">
+      </div>
+      <div class="brand-text">
+        <div class="sekolah">SMK Negeri Tengaran</div>
+        <div class="tagline">Unggul, Terampil, Berkarakter</div>
+      </div>
+    </div>
+    <a class="nav-pill" href="#daftar">Daftar sekarang</a>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <!-- Ilustrasi SVG Gedung Sekolah -->
+    <svg class="hero-art" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <defs>
+        <pattern id="win" x="230" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+          <rect x="10" y="10" width="28" height="30" rx="3" fill="#6FE3D2"/>
+        </pattern>
+      </defs>
+      
+      <!-- Elemen Latar Belakang & Awan -->
+      <circle cx="980" cy="70" r="38" fill="#FFF6C9" opacity=".9"/>
+      <ellipse cx="200" cy="90" rx="70" ry="18" fill="#fff" opacity=".35"/>
+      <ellipse cx="820" cy="140" rx="90" ry="20" fill="#fff" opacity=".3"/>
+      
+      <!-- Bangunan Gedung -->
+      <rect x="0" y="380" width="1200" height="40" fill="#0B4F49"/>
+      <rect x="230" y="250" width="250" height="130" fill="#E3F6F1"/>
+      <rect x="230" y="240" width="250" height="12" fill="#12968A"/>
+      <rect x="730" y="250" width="250" height="130" fill="#E3F6F1"/>
+      <rect x="730" y="240" width="250" height="12" fill="#12968A"/>
+      <rect x="230" y="260" width="250" height="110" fill="url(#win)"/>
+      <rect x="730" y="260" width="250" height="110" fill="url(#win)"/>
+      
+      <!-- Gedung Utama & Bendera -->
+      <rect x="470" y="190" width="260" height="190" fill="#fff"/>
+      <polygon points="445,192 600,120 755,192" fill="#12968A"/>
+      <polygon points="470,190 600,130 730,190" fill="#0E7C72"/>
+      <line x1="600" y1="120" x2="600" y2="60" stroke="#fff" stroke-width="3"/>
+      <rect x="602" y="60" width="36" height="9" fill="#D62828"/>
+      <rect x="602" y="69" width="36" height="9" fill="#fff"/>
+      
+      <!-- Papan Nama Sekolah -->
+      <rect x="510" y="205" width="180" height="30" rx="5" fill="#0B4F49"/>
+      <text x="600" y="226" text-anchor="middle" font-family="Plus Jakarta Sans,sans-serif" font-weight="800" font-size="15" fill="#fff">
+        SMK NEGERI TENGARAN
+      </text>
+      
+      <!-- Pintu & Jendela Utama -->
+      <rect x="490" y="250" width="14" height="130" fill="#E3F6F1"/>
+      <rect x="696" y="250" width="14" height="130" fill="#E3F6F1"/>
+      <rect x="568" y="305" width="64" height="75" rx="4" fill="#0E7C72"/>
+      <line x1="600" y1="305" x2="600" y2="380" stroke="#fff" stroke-width="2"/>
+      <rect x="515" y="260" width="34" height="34" rx="3" fill="#6FE3D2"/>
+      <rect x="651" y="260" width="34" height="34" rx="3" fill="#6FE3D2"/>
+      <polygon points="570,380 630,380 700,420 500,420" fill="#CFE9E3"/>
+      
+      <!-- Pohon-Pohon Taman -->
+      <rect x="140" y="320" width="14" height="62" fill="#5b3a29"/>
+      <circle cx="147" cy="300" r="46" fill="#1E8E6E"/>
+      <circle cx="125" cy="322" r="30" fill="#17775B"/>
+      
+      <rect x="1043" y="330" width="12" height="52" fill="#5b3a29"/>
+      <circle cx="1049" cy="312" r="40" fill="#1E8E6E"/>
+      <circle cx="1070" cy="334" r="26" fill="#17775B"/>
+      
+      <rect x="30" y="350" width="10" height="32" fill="#5b3a29"/>
+      <circle cx="35" cy="342" r="26" fill="#1BB3A3"/>
+    </svg>
+
+    <img class="hero-photo" src="https://smkn1tengaran.sch.id/wp-content/uploads/2023/08/smkn1tengaran-gerbang-masuk.jpg" alt="Foto SMK Negeri Tengaran" onerror="this.remove()">
+
+    <div class="hero-inner">
+      <h2>Temukan bakatmu di luar kelas</h2>
+      <p>15 ekstrakurikuler menunggu kamu. Pilih yang paling cocok, isi formulir, dan mulai bergabung.</p>
+      
+      <div class="hero-actions">
+        <a class="btn-hero" href="#daftar">Isi formulir</a>
+        <a class="btn-ghost" href="#ekskul">Lihat ekskul</a>
+      </div>
+
+      <ul class="stats">
+        <li><b>15</b><span>Ekskul</span></li>
+        <li><b>6</b><span>Jurusan</span></li>
+        <li><b>1</b><span>Tingkat kelas</span></li>
+      </ul>
+    </div>
+
+    <a class="scroll-cue" href="#ekskul">Gulir ke bawah ↓</a>
+  </header>
+
+  <!-- SHOWCASE EKSTRAKURIKULER -->
+  <section class="showcase" id="ekskul">
+    <div class="section-title">
+      <h2>Pilih ekskul favoritmu</h2>
+      <p>Ketuk salah satu kartu, pilihanmu langsung terisi di formulir.</p>
+    </div>
+    <div class="ekskul-grid" id="ekskulGrid"></div>
+  </section>
+
+  <!-- FORMULIR PENDAFTARAN & CHATBOT -->
+  <div class="page-layout" id="daftar">
+    <main>
+      <div class="card">
+        <div class="card-head">
+          <h1>Formulir Pendaftaran Ekstrakurikuler</h1>
+          <p>Lengkapi data di bawah ini dengan benar. Semua kolom bertanda bintang wajib diisi.</p>
+          <div class="progress" aria-hidden="true">
+            <i id="progressBar"></i>
+          </div>
+          <small id="progressText">0 dari 6 kolom terisi</small>
+        </div>
+
+        <form id="regForm" novalidate>
+          <!-- Field: Nama Lengkap -->
+          <div class="field" id="field-nama">
+            <label for="nama">Nama Lengkap <span class="req">*</span></label>
+            <input type="text" id="nama" name="nama" placeholder="Tulis nama lengkapmu" autocomplete="name">
+            <div class="hint err">Nama lengkap tidak boleh kosong (minimal 3 karakter).</div>
+            <div class="hint ok">Nama lengkap valid.</div>
+          </div>
+
+          <!-- Field: Email -->
+          <div class="field" id="field-email">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" id="email" name="email" placeholder="nama@contoh.com" autocomplete="email">
+            <div class="hint err">Format email tidak sesuai, contoh: nama@contoh.com.</div>
+            <div class="hint ok">Format email sudah benar.</div>
+          </div>
+
+          <!-- Field: Password -->
+          <div class="field" id="field-password">
+            <label for="password">Password <span class="req">*</span></label>
+            <div class="pw-wrap">
+              <input type="password" id="password" name="password" placeholder="Minimal 8 karakter" autocomplete="new-password">
+              <button type="button" class="pw-toggle" data-target="password">Lihat</button>
+            </div>
+            <div class="hint err">Password minimal 8 karakter.</div>
+            <div class="hint ok">Password memenuhi syarat.</div>
+          </div>
+
+          <!-- Field: Konfirmasi Password -->
+          <div class="field" id="field-konfirmasi">
+            <label for="konfirmasi">Konfirmasi Password <span class="req">*</span></label>
+            <div class="pw-wrap">
+              <input type="password" id="konfirmasi" name="konfirmasi" placeholder="Ulangi password" autocomplete="new-password">
+              <button type="button" class="pw-toggle" data-target="konfirmasi">Lihat</button>
+            </div>
+            <div class="hint err">Konfirmasi password harus sama persis dengan password.</div>
+            <div class="hint ok">Konfirmasi password cocok.</div>
+          </div>
+
+          <!-- Field: Pilihan Kelas -->
+          <div class="field" id="field-kelas">
+            <label for="kelas">Pilihan Kelas <span class="req">*</span></label>
+            <select id="kelas" name="kelas">
+              <option value="" selected disabled>Pilih kelasmu</option>
+            </select>
+            <div class="hint err">Silakan pilih kelasmu.</div>
+            <div class="hint ok">Kelas tersimpan.</div>
+          </div>
+
+         <div class="field" id="field-ekskul">
+  <label for="ekskul">Pilihan Ekstrakurikuler <span class="req">*</span></label>
+  <select id="ekskul" name="ekskul">
+    <option value="" selected disabled>Pilih salah satu ekstrakurikuler</option>
+    <option value="Jurnalistik">Jurnalistik</option>
+    <option value="Pramuka">Pramuka</option>
+    <option value="Palang Merah Remaja (PMR)">Palang Merah Remaja (PMR)</option>
+    <option value="Paskibra">Paskibra</option>
+    <option value="Basket">Basket</option>
+    <option value="Futsal">Futsal</option>
+    <option value="Rebana">Rebana</option>
+    <option value="Pencak Silat">Pencak Silat</option>
+    <option value="Seni Tari">Seni Tari</option>
+    <option value="Drumband">Drumband</option>
+    <option value="Bahasa Jepang">Bahasa Jepang</option>
+    <option value="Self Riding">Self Riding</option>
+    <option value="Voli">Voli</option>
+    <option value="Paduan Suara">Paduan Suara</option>
+    <option value="Rohis">Rohis</option>
+  </select>
+  <div class="hint err">Silakan pilih salah satu ekstrakurikuler.</div>
+  <div class="hint ok">Pilihan ekstrakurikuler tersimpan.</div>
+</div>
+         
+
+          <button type="submit" class="submit-btn">Kirim Pendaftaran</button>
+
+          <!-- Pesan Sukses -->
+          <div class="success-box" id="successBox">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="11" fill="#1E8E6E"/>
+              <path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Pendaftaran berhasil! Data kamu sudah tercatat, silakan cek email untuk info lebih lanjut.</span>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- CHATBOT WIDGET -->
+    <div class="chat-dock">
+      <button class="chat-toggle" id="chatToggle" aria-label="Buka chatbot bantuan">
+        <svg class="icon-chat" viewBox="0 0 24 24" fill="none">
+          <path d="M4 5h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H9l-4.6 3.2A.6.6 0 0 1 3 18.7V6a1 1 0 0 1 1-1Z" fill="#fff"/>
+          <circle cx="8.5" cy="10.5" r="1.2" fill="#0E7C72"/>
+          <circle cx="12.5" cy="10.5" r="1.2" fill="#0E7C72"/>
+          <circle cx="16.5" cy="10.5" r="1.2" fill="#0E7C72"/>
+        </svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none">
+          <path d="M6 6l12 12M18 6L6 18" stroke="#fff" stroke-width="2.3" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <span class="chat-label">Butuh bantuan?</span>
+
+      <div class="chat-panel" id="chatPanel">
+        <div class="chat-head">
+          <span class="dot"></span>
+          <div>
+            <strong>Asisten Pendaftaran</strong>
+            <span>SMK Negeri Tengaran</span>
+          </div>
+        </div>
+
+        <div class="chat-body" id="chatBody"></div>
+
+        <div class="chat-quick">
+          <button data-q="kelas">Pilihan kelas</button>
+          <button data-q="ekskul">Pilihan ekskul</button>
+          <button data-q="password">Syarat password</button>
+        </div>
+
+        <div class="chat-input">
+          <input type="text" id="chatInput" placeholder="Tulis pertanyaanmu...">
+          <button id="chatSend" aria-label="Kirim pesan">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M4 12l16-8-6 8 6 8-16-8Z" fill="#fff"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <b>SMK Negeri Tengaran</b>
+    <span>Kab. Semarang, Jawa Tengah · Unggul, Terampil, Berkarakter</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
